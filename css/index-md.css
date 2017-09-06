@@ -1,0 +1,15 @@
+.featureImg{
+	display: block;
+	width: 100%;
+}
+.featureImg img{
+	display: inline-block;
+	width: 100%;
+}
+.featureText{
+	display: block;
+	width: 100%;
+}
+.secondi li{
+	width: 50%;
+}

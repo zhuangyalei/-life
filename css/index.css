@@ -1,0 +1,358 @@
+body{
+	margin: 0;
+	-webkit-justify-content: 100%;
+	font-family: arial;
+	min-width: 400px;
+}
+h1,
+h2,
+h3,
+p{
+	margin: 0
+}
+a,
+input{
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+input{
+	margin: 0;
+	padding: 0;
+	outline: none;
+	-webkit-appearance: none;
+	border-radius:0;
+	border: none;
+}
+ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+img{
+	border: none;
+	vertical-align: top;
+}
+.clearFix:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.home{
+	width: 100%;
+	border-bottom: 1px solid #000;
+	background: url(../img/mcconnells-featured-L.jpg) center 0;
+	background-size:cover ;
+	
+}
+.opceity{
+	overflow: hidden;
+	background: linear-gradient(to left, 
+	rgba(0,0,0,0) 0%,
+	rgba(0,0,0,0) 10%,
+	rgba(0,0,0,.3) 100%);
+}*
+.tittle{
+	height: 60px;
+	background: linear-gradient( 
+	rgba(0,0,0,.6) 0%,
+	rgba(0,0,0,.6) 10%,
+	rgba(0,0,0,0) 100%);
+);	
+}
+#logo{
+	float: left;
+	overflow: hidden;
+	width: 139px;
+	height: 0;
+	margin: 24px 0 0 53px;
+	padding-top:24px ;
+	background: url(../img/img2.png);
+}
+.topNave{
+	float: right;
+	margin-top:24px ;
+	font:bold 14px/36px arial;
+	margin-right:53px ;
+}
+.topNave li{
+	float: left;
+	margin-right: 17px;
+}
+.topNave li a{
+	color:rgba(255,255,255,1) ;
+	transition: .5s;
+}
+.topNave li a:hover{
+	color:rgba(255,255,255,.4) ;
+}
+.topNave li input{
+	padding: 9px;
+	vertical-align: top;
+	background: rgba(255,255,255,.2);
+}
+.topNave li input{
+	display: none;
+	
+}
+.topNave li label{
+	display: inline-block;
+	width: 23px;
+	height: 36px;
+	background: url(../img/img1.png) no-repeat 2px  6px;
+}
+.home .text{
+	padding: 86px 0 0 53px;
+}
+.home .text span{
+	font: 12px/1 arial;
+	color: #fff;
+}
+.home .text h2{
+	width: 500px;
+	margin-top: 16px;
+	font-size:55px ;
+	line-height: 56px;
+	color: #fff;
+}
+.home .text h2:hover{
+	text-decoration: underline;
+}
+.home .text p{
+	width:450px ;
+	margin-top:32px ;
+	font-size:16px ;
+	line-height: 24px;
+	color: #fff;
+}
+.home .text a{
+	display: block;
+	width:122px ;
+	height: 34px;
+	margin:25px 0 132px;
+	font-size:12px ;
+	line-height: 34px;
+	text-align:center ;
+	color: #FFFFFF;
+	border: 1px solid  rgba(241,241,241,.5);
+	transition: .5s;
+}
+.home .text a:hover{
+border: 1px solid rgba(241,241,241,1);
+}
+.picturGroup li{
+	position: relative;
+	overflow: hidden;
+	float: left;
+	width: 33.3%;
+}
+.picturGroup li img{
+	width: 100%;
+	transition: .5s;
+}
+.picturGroup li .opceity{
+	content: "";
+	position: absolute;
+	left: 0;
+	top: 0;
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0);
+	transition: .5s;
+}
+.picturGroup li:hover .opceity{
+	background: rgba(0,0,0,.3);
+}
+.picturGroup li:hover img{
+	transform: scale(1.1);
+}
+.picturGroup li:nth-child(4){
+	display: none;
+}
+.picturGroup .recomment{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+	background: linear-gradient(
+	to bottom,
+	rgba(0,0,0,0) 0%,
+	rgba(0,0,0,0) 1%,
+	rgba(0,0,0,0.75) 100%);
+	);
+}
+.recomment .category{
+	display: inline-block;
+	padding: 0 27px;
+	font-size:12px ;
+	line-height: 31px;
+	letter-spacing: 2px;
+	border: 1px solid #7d7987;
+	color: #fff;
+}
+.recomment h2{
+	margin-top:20px ;
+	padding: 0 25px;
+	font-size:24px ;
+	line-height: 32px;
+	color: #fff;
+}
+.recomment .border{
+	margin: 0 auto;
+	width: 74px;
+	height: 21px;
+	border-bottom: 1px solid #fff;
+}
+.recomment .metadata{
+	display: inline-block;
+	margin:22px 0 25px;
+	font-size: 10px;
+	line-height: 18px;
+	letter-spacing: 3px;
+	color: #fff;
+}
+.featureImg{
+	display: table-cell;
+	width: 66.666%;
+	background: url(../img/doyenne-featured-M-2.jpg) center 0;
+	background-size:cover ;
+}
+.featureImg img{
+	display: none;
+}
+.featureText{
+	display: table-cell;
+	box-sizing: border-box;
+	width: 33.333%;
+	padding: 0 45px;
+	background: #000000;
+	text-align: center;
+	color: #FFFFFF;
+}
+.subtitle{
+	display: inline-block;
+	margin-top:77px ;
+	font-weight:bold ;
+	font-size: 12px;
+	line-height: 12px;
+	letter-spacing: 4px;
+}
+.featureText h1 a{
+	display: inline-block;
+	margin-top:16px ;
+	font-size: 32px;
+	line-height: 32px;
+	color: #FFFFFF;
+}
+.featureText h1 a:hover{
+	text-decoration: underline;
+}
+.featureText .border{
+	display: inline-block;
+	width: 74px;
+	height: 36px;
+	border-bottom: 1px solid #FFFFFF;
+}
+.featureText p{
+	margin-top: 33px;
+	font-size: 16px;
+	line-height: 22px;
+}
+.featureText .fbuttom{
+	display: inline-block;
+	margin:35px 0;
+	font-weight:bold ;
+	font-size:10px ;
+	padding: 9px 22px;
+	letter-spacing: 2px;
+	color: #FFFFFF;
+	border:1px solid rgba(255,255,255,0.40) ;
+	transition: .5s;
+}  
+.featureText .fbuttom:hover{
+	border:1px solid rgba(255,255,255,1) ;
+}
+#tea{
+	width: 66.6%;
+}
+#man{
+	display: none;
+}
+.secondi{
+	padding: 100px 0 100px 0;
+	background: #FFFFFF;
+}
+.secondi li{
+	float: left;
+	width: 33.33%;
+	text-align: center;
+}
+.secondi li h3{
+	font-size:20px;
+	line-height: 20px;
+}
+.secondi li p{
+	margin: 0 auto;
+	width: 329px;
+	margin-top:24px ;
+	font-size: 13px;
+	line-height: 22px;
+}
+.secondi a{
+	display: inline-block;
+	margin-top:28px ;
+	font-weight: 900;
+	font-size:10px ;
+	padding: 9px 22px;
+	letter-spacing: 2px;
+	color: #000;
+	border:1px solid rgba(0,0,0,0.40) ;
+	transition: .5s;
+}  
+.secondi a:hover{
+	border:1px solid rgba(0,0,0,1) ;
+}
+.footer{
+	background: #000000;
+	padding: 28px 120px 90px;
+	color: #FFFFFF;
+}
+.footer .list{
+	float: left;
+	width: 50%;
+	font-size: 12px;
+	line-height: 24px;
+}
+.footer .list ul{
+	float: left;
+	width: 50%;
+}
+.list ul a{
+	color: #FFFFFF;
+}
+.footer .input,
+.footer .new{
+	float: left;
+	width: 25%;
+	font-size: 12px;	
+}
+.footer span{
+	display: block;
+}
+.footer .input input{
+	margin-top:10px ;
+    padding: 8px;
+    width: 200px;
+    border: solid #5C5C5C 1px;
+    color: #5C5C5C;
+    background-color: #191919;
+}
+.footer .social{
+	margin-top: 10px;
+}
+.footer .social a{
+	margin-right: 5px;
+}
